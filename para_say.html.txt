@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Sayma</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; background-color: #f4f4f4; }
+        .money { font-size: 30px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Para Sayma Oyunu</h1>
+    <p>Her tıkladığınızda 1 TL eklenir.</p>
+    <div class="money" onclick="increaseAmount()">💰</div>
+    <p id="amount">0 TL</p>
+
+    <script>
+        let amount = 0;
+        function increaseAmount() {
+            amount++;
+            document.getElementById('amount').textContent = amount + " TL";
+        }
+    </script>
+</body>
+</html>

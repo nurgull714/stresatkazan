@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nefes Tutma Oyunu</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; background-color: #f4f4f4; }
+        .countdown { font-size: 30px; margin-top: 50px; }
+        .btn { font-size: 18px; padding: 10px 20px; margin-top: 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Nefes Tutma Oyunu</h1>
+    <p>Başlamak için butona tıklayın.</p>
+    <button class="btn" onclick="startGame()">Başla</button>
+    <div class="countdown" id="countdown">10</div>
+
+    <script>
+        let countdownElement = document.getElementById('countdown');
+        let countdown = 10;
+        let interval;
+
+        function startGame() {
+            interval = setInterval(function() {
+                countdown--;
+                countdownElement.textContent = countdown;
+
+                if (countdown <= 0) {
+                    clearInterval(interval);
+                    alert('Tebrikler! Nefes tutmayı başardınız!');
+                    countdown = 10;
+                    countdownElement.textContent = countdown;
+                }
+            }, 1000);
+        }
+    </script>
+</body>
+</html>

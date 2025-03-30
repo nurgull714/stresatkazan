@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stres At</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+        }
+        h1 {
+            color: #333;
+        }
+        .btn {
+            font-size: 20px;
+            margin: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stres At</h1>
+    <button class="btn" onclick="window.location.href='stres_azalt.html'">Stres Azalt</button>
+    <button class="btn" onclick="window.location.href='stres_kazan.html'">Stres Kazan</button>
+</body>
+</html>

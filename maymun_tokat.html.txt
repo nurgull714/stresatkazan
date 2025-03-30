@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maymun Tokatlama</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .monkey {
+            font-size: 50px;
+            margin: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Maymun Tokatlama Oyunu</h1>
+    <p>Maymunu tokatlamak için üzerine tıklayın!</p>
+    <div class="monkey" onclick="alert('Tebrikler! Maymunu tokatladınız!')">🐒</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stres Kazan</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #ffebee;
+        }
+        .game-btn {
+            padding: 15px;
+            margin: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stres Kazan</h1>
+    <button class="game-btn" onclick="window.location.href='kup_oyunu.html'">Küp Oyunu</button>
+</body>
+</html>

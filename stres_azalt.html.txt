@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stres Azalt</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .btn {
+            font-size: 20px;
+            margin: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stres Azalt</h1>
+    <button class="btn" onclick="window.location.href='nefes_tut.html'">Nefes Tutma</button>
+    <button class="btn" onclick="window.location.href='maymun_tokat.html'">Maymun Tokatlama</button>
+    <button class="btn" onclick="window.location.href='para_say.html'">Para Sayma</button>
+</body>
+</html>
